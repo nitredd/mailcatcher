@@ -26,6 +26,11 @@ MailCatcher runs a super simple SMTP server which catches any message sent to it
 3. Go to http://127.0.0.1:1080/
 4. Send mail through smtp://127.0.0.1:1025
 
+To build the .gem from source: 
+
+1. `git clone https://github.com/nitredd/mailcatcher.git` 
+2. `cd mailcatcher; bundle install; bundle exec rake assets; bundle exec rake package`
+
 ### Command Line Options
 
 Use `mailcatcher --help` to see the command line options.
